@@ -5,7 +5,7 @@ layout: default
 
 # Introduction à Processing - Paulo le poulpe qui sait tout
 
-TODO schema (avec la vraie image du vrai poulpe)
+![Schéma]({{ site.url }}/Paulo/assets/schema.svg)
 
 ## Introduction
 
