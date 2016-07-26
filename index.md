@@ -3,11 +3,16 @@ title: Paulo le poulpe qui sait tout
 layout: default
 ---
 
-# Introduction à Processing - Paulo le poulpe qui sait tout
+# Document de travail 
 
-![Schéma]({{ site.url }}/Paulo/assets/schema.svg)
 
-## Introduction
+## Objectifs 
+Le but de cet atelier est de vous faire découvrir le langage Processing, au travers de la réalisation d'une application : Paulo, un poulpe savant capable de répondre aux questions qu'on lui pose en citant des tweets de politiciens. 
+
+![Dimensions et coordonnées des différents éléments de notre application]({{ site.url }}/Paulo/assets/schema.svg)
+*Dimensions et coordonnées des différents éléments de notre application*
+
+## Introduction 
 
 ### Consignes
 
