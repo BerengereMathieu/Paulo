@@ -42,13 +42,14 @@ La console est une zone spéciale permettant d'afficher des messages textuels.
 
 ### Consignes
 
+* Redimensionner le canevas pour qu'il correspondent aux dimensions indiquées sur le schéma
 * Tracer en noir la zone où sera Paulo 
 * Tracer en blanc la zone de saisie du texte par l'utilisateur
 * Tracer en blanc la zone de réponse de Paulo
 
 ### Documentation utile
 
-* *background*
+* *size*
 * *fill*
 * *stroke*
 * *noStroke*
@@ -59,7 +60,10 @@ La console est une zone spéciale permettant d'afficher des messages textuels.
 Processing utilise le système colorimétrique RGB pour représenter les couleurs. Une couleur est décrite par un triplet rouge-vert-bleu, chaque composante allant de 0 (sombre) à 255 (clair)
 
 Pour savoir à quelle quantité de vert, rouge et bleu correspond une couleur donnée, Processing fournit un utilitaire accessible via *Tools > Color Selector*.
-TODO screenshot screen-color_selector.png
+
+![Utilitaire de sélection de couleurs]({{ site.url }}/Paulo/assets/screen-color_selector.png)
+
+*Utilitaire de sélection de couleurs*
 
 ## Affichage du poulpe Paulo
 
@@ -67,7 +71,7 @@ TODO screenshot screen-color_selector.png
 
 * Créer une variable de type *PImage*, nommée *pauloImg*
 * Charger dans cette variable l'image représentant Paulo durant l'initialisation
-* Afficher cette image dans la fonction de dessin 
+* Afficher cette image dans la fonction de dessin, de manière ce que son coin supérieur gauche coïncide avec les coordonnées données dans le schéma
 
 ### Documentation utile
 
@@ -83,8 +87,8 @@ Une variable est un espace mémoire dans lequel le programme conserve des inform
 
 ### Consignes 
 
-* Tracer un cercle blanc, de rayon [[]] et dont le centre se situe à la position [[]]
-* Tracer un cercle noir, de rayon [[]] et dont le centre se situe à la position [[]]
+* Tracer un cercle blanc, de rayon 55 et dont le centre se situe à la position (238,235)
+* Tracer un cercle noir, de rayon 35 et dont le centre se situe à la position (238,235)
 
 ### Documentation utile
 
@@ -97,7 +101,7 @@ Une variable est un espace mémoire dans lequel le programme conserve des inform
 
 Sous Processing, un cercle est une ellipse particulière dont la largeur est égale à la hauteur.
 
-## Interroger Paulo \#1
+## Interroger Paulo
 
 ### Consignes
 
@@ -109,6 +113,7 @@ Sous Processing, un cercle est une ellipse particulière dont la largeur est ég
 
 * *keyTyped*
 * *key*
+* *text*
 
 ### Notions utiles
 
