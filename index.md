@@ -25,6 +25,7 @@ layout: default
 ### Notions utiles
 
 Lorsque vous programmez une application avec Processing, vous créez généralement deux fonctions :
+
 * *setup* : qui contient les instructions qui seront exécutées une seule fois au lancement de l'application ;
 * *draw* :  qui contient les instructions qui seront exécutées en boucle par l'application tant qu'elle restera active.
 
@@ -108,4 +109,4 @@ Sous Processing, un cercle est une ellipse particulière dont la largeur est ég
 
 La fonction *keyTyped* permet de spécifier des instructions qui seront exécutées chaque fois que l'utilisateur presse une touche du clavier. La valeur de la touche pressée est stockée dans la variable *key*.
 
-Le type *String* (en français "chaîne de caractères") sert à stocker du texte. Il est possible de créer une nouvelle chaîne de caractères à partir de deux chaînes en les joignant via l'opération "+" (on parle de "concatenation").
+Le type *String* (en français "chaîne de caractères") sert à stocker du texte. Il est possible de créer une nouvelle chaîne de caractères à partir de deux chaînes en les joignant via l'opération "+" (on parle de "concaténation").
