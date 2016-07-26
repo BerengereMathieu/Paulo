@@ -37,8 +37,6 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
-
 /**
  * Images
  */
@@ -85,22 +83,31 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
+h1, h2 {
+    color: $primary-color;
+}
 
+
+h3, h4, h5, h6{
+    color: $secondary-color;
+}
 
 /**
  * Links
  */
 a {
-    color: $brand-color;
-    text-decoration: none;
-
+    color: $link-color;
+    text-decoration: underline;
+    
+    
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($link-color, 15%);
     }
 
+    
+
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: darken($link-color, 15%);
     }
 }
 
