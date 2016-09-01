@@ -137,10 +137,39 @@ Le type *String* (en français "chaîne de caractères") sert à stocker du text
 * *text*
 
 ### Notions utiles
+
 La fonction *text* permet de définir un rectangle à l'intérieur duquel le texte sera affiché. Le retour à la ligne est alors géré automatiquement, en fonction de la taille du rectangle.
 
 Le texte fonctionne comme n'importe toutes les primitives de dessin de Processing : on précise d'abord son apparence (par exemple avec les fonctions *fill*, *textsize*, etc.) puis on le trace grâce à la fonction *text*.
 
+## Charger le fichier contenant les réponses possibles de Paulo
 
+### Consignes
+
+* Créez une variable *answersFile* de type *BufferedReader*
+* Créez une variable *answers* de type *ArrayList<String>* 
+
+### Documentation utile
+
+### Notions utiles
+
+## Afficher la réponse de Paulo
+
+### Consignes 
+
+* Créez le dossier *code*
+* Placez le fichier  *paulib.jar* correspondant à la bibliothèque *paulib* dans ce dossier
+
+### Documentation utile
+
+### Notions utiles
+
+## Changer la couleur de la réponse
+
+### Consignes
+
+### Documentation utile
+
+### Notions utiles
 
 
