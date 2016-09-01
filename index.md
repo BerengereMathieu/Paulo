@@ -120,3 +120,19 @@ Sous Processing, un cercle est une ellipse particulière dont la largeur est ég
 La fonction *keyTyped* permet de spécifier des instructions qui seront exécutées chaque fois que l'utilisateur presse une touche du clavier. La valeur de la touche pressée est stockée dans la variable *key*.
 
 Le type *String* (en français "chaîne de caractères") sert à stocker du texte. Il est possible de créer une nouvelle chaîne de caractères à partir de deux chaînes en les joignant via l'opération "+" (on parle de "concaténation").
+
+## Afficher la question posée
+
+### Consignes
+
+* Tracez un rectangle blanc, de manière ses coins coïncident avec les coordonnées de la zone "Question à Paulo" du schéma
+* Dans la même zone, affichez en noir le texte contenu dans la variable *question*
+* Modifiez le code pour que le texte soit affiché en taille 20 
+
+### Documentation utile
+
+
+### Notions utiles
+
+
+
