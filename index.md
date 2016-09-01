@@ -131,8 +131,16 @@ Le type *String* (en français "chaîne de caractères") sert à stocker du text
 
 ### Documentation utile
 
+* *rect*
+* *fill*
+* *textSize*
+* *text*
 
 ### Notions utiles
+La fonction *text* permet de définir un rectangle à l'intérieur duquel le texte sera affiché. Le retour à la ligne est alors géré automatiquement, en fonction de la taille du rectangle.
+
+Le texte fonctionne comme n'importe toutes les primitives de dessin de Processing : on précise d'abord son apparence (par exemple avec les fonctions *fill*, *textsize*, etc.) puis on le trace grâce à la fonction *text*.
+
 
 
 
