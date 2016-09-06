@@ -126,8 +126,7 @@ Le type *String* (en français "chaîne de caractères") sert à stocker du text
 
 ### Consignes
 
-* Tracez un rectangle blanc, de manière ses coins coïncident avec les coordonnées de la zone "Question à Paulo" du schéma
-* Dans la même zone, affichez en noir le texte contenu dans la variable *question*
+* Dans la zone "Question à Paulo" du schéma, affichez en noir le texte contenu dans la variable *question*
 * Modifiez le code pour que le texte soit affiché en taille 20 
 
 ### Documentation utile
