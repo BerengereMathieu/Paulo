@@ -106,8 +106,9 @@ Sous Processing, un cercle est une ellipse particulière dont la largeur est ég
 ### Consignes
 
 * Créer une variable de type *String*, nommée *question*
+* Durant la phase d'initialisation, assigner la valeur *""* à cette variable
 * Dans la fonction *keyTyped* mettre à jour *question* en fonction de ce que l'utilisateur saisi au clavier
-* Lorsque l'utilisateur appuie sur la touche *Entrée*, afficher le contenu de *question* dans la console, puis réinitialiser le contenu de *question* (en lui assignant la valeur "")
+* Lorsque l'utilisateur appuie sur la touche *Entrée*, afficher le contenu de *question* dans la console, puis réinitialiser le contenu de *question* (en lui assignant la valeur *""*)
 
 ### Documentation utile
 
