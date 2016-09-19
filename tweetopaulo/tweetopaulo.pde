@@ -1,6 +1,12 @@
+import eu.berengere_mathieu.paulib.Paulo;
 
 PImage pauloImg;
 String question;
+
+String[] answers;
+Paulo paulo;
+
+String answer;
 
 void setup() {
   size(500, 700);
@@ -9,6 +15,10 @@ void setup() {
   pauloImg = loadImage("paulo.png");
 
   question = "";
+  answer = "";
+
+  answers = loadStrings("reponses.txt");
+  paulo = new Paulo(answers);
 }
 
 void draw() {
@@ -39,10 +49,13 @@ void draw() {
   textSize(20);
   fill(0, 0, 0);
   text(question, 0, 600, 500, 100);
+  // affichage de la reponse
+  text(answer, 0, 0, 500, 100);
 }
 
 void keyTyped() {
   if (key == ENTER) {
+    answer = paulo.getAnswer(question);
     question = "";
   } else {
     question += key;
