@@ -146,19 +146,36 @@ Le texte fonctionne comme n'importe toutes les primitives de dessin de Processin
 
 ### Consignes
 
-* Créez une variable *answersFile* de type *BufferedReader*
-* Créez une variable *answers* de type *ArrayList<String>* 
+* Créez une variable *answers* de type *String[]*
+* Durant la phase d'initialisation, stockez le contenu du fichier *data/reponses.txt* dans cette variable à l'aide de la fonction *loadStrings*
+
+### Documentation utile
+* *loadStrings*
+
+### Notions utiles
+ `TODO`
+ - les tableaux
+ - les fichiers
+ - le dosser data
+
+## Sélectionner une réponse pertinente
+
+### Consignes 
+
+* Créez le dossier *code*
+* Placez le fichier  *paulib.jar* correspondant à la bibliothèque *paulib* dans ce dossier
+* Tout en haut du fichier source, importez *eu.berengere_mathieu.paulib.Paulo*
+* Créez une variable *paulo* de type *Paulo*
+* Durant la phase d'initialisation, initialisez la variable *paulo* en utilisant: *new Paulo(answers);*
+* Créez une variable *answer* de type *String*
+* Durant la phase d'initialisation, assigner la valeur *""* à la variable *answer*
+* Dans la fonction *keyTyped*, quand l'utilisateur appuie sur la touche *Entrée* `TODO`
 
 ### Documentation utile
 
 ### Notions utiles
 
 ## Afficher la réponse de Paulo
-
-### Consignes 
-
-* Créez le dossier *code*
-* Placez le fichier  *paulib.jar* correspondant à la bibliothèque *paulib* dans ce dossier
 
 ### Documentation utile
 
