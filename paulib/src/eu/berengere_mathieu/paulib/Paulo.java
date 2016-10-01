@@ -7,22 +7,26 @@ import java.util.Random;
 
 public class Paulo {
 
-	private String lastSpeaker = "nobody";
-	private final List<String> answers;
+	private static String lastSpeaker = "nobody";
+	private static List<String> answers = null;
 
-	public Paulo(String[] answers) {
-		this.answers = Arrays.asList(answers);
+	public static void load(String[] answers) {
+		Paulo.answers = Arrays.asList(answers);
 	}
 
-	public String getAnswer(String msg) {
+	public static String getAnswer(String msg) {
+		if (answers == null) {
+			throw new IllegalStateException("You must call Paulo.load to initialize the possible answers first");
+		}
+
 		int maxScore = 0;
 		String answer = "";
 		Collections.shuffle(answers, new java.util.Random());
 		for (String prop : answers) {
-			prop = prop.toLowerCase();
+			String propLower = prop.toLowerCase();
 			int score = 0;
 			for (String word : msg.toLowerCase().split("\\s+")) {
-				if (prop.contains(word)) {
+				if (propLower.contains(word)) {
 					score++;
 				}
 			}
@@ -44,7 +48,7 @@ public class Paulo {
 		return answer;
 	}
 
-	public String getSpeaker() {
+	public static String getSpeaker() {
 		return lastSpeaker;
 	}
 

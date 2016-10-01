@@ -18,7 +18,7 @@ void setup() {
   answer = "";
 
   answers = loadStrings("reponses.txt");
-  paulo = new Paulo(answers);
+  Paulo.load(answers);
 }
 
 void draw() {
@@ -55,7 +55,7 @@ void draw() {
 
 void keyTyped() {
   if (key == ENTER) {
-    answer = paulo.getAnswer(question);
+    answer = Paulo.getAnswer(question);
     question = "";
   } else {
     question += key;
