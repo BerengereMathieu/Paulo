@@ -4,7 +4,6 @@ PImage pauloImg;
 String question;
 
 String[] answers;
-Paulo paulo;
 
 String answer;
 
