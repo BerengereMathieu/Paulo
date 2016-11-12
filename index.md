@@ -164,14 +164,14 @@ Par convention, un projet Processing possède un dossier *data* qui contient tou
 
 ### Consignes 
 
-* Créez le dossier *code*
-* Placez le fichier  *paulib.jar* correspondant à la bibliothèque *paulib* dans ce dossier
-* Tout en haut du fichier source, importez *eu.berengere_mathieu.paulib.Paulo*
-* Durant la phase d'initialisation, utilisez *Paulo.load(answers)* pour charger les réponses possibles
-* Créez une variable *answer* de type *String*
+* Créer le dossier *code*
+* Placer le fichier  *paulib.jar* correspondant à la bibliothèque *paulib* dans ce dossier
+* Tout en haut du fichier source, importer *eu.berengere_mathieu.paulib.Paulo*
+* Durant la phase d'initialisation, utiliser *Paulo.load(answers)* pour charger les réponses possibles
+* Créer une variable *answer* de type *String*
 * Durant la phase d'initialisation, assigner la valeur *""* à la variable *answer*
-* Dans la fonction *keyTyped*, quand l'utilisateur appuie sur la touche *Entrée*, récupérez dans la variable *answer* la réponse la plus pertinente en utilisant *Paulo.getAnswer(question)*
-* Dans la fonction de dessin, affichez le contenu de la variable *answer* dans la zone prévue à cet effet (voir le schéma)
+* Dans la fonction *keyTyped*, quand l'utilisateur appuie sur la touche *Entrée*, récupérer dans la variable *answer* la réponse la plus pertinente en utilisant *Paulo.getAnswer(question)*
+* Dans la fonction de dessin, afficher le contenu de la variable *answer* dans la zone prévue à cet effet (voir le schéma)
 
 ### Documentation utile
 * *import*
