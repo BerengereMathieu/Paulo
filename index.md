@@ -174,12 +174,19 @@ Par convention, un projet Processing possède un dossier *data* qui contient tou
 * Dans la fonction de dessin, affichez le contenu de la variable *answer* dans la zone prévue à cet effet (voir le schéma)
 
 ### Documentation utile
+* *import*
+* *Paulo.load(String[])*: charge la liste des réponses possibles
+* *Paulo.getAnswer(String)*: selectionne la réponse la plus pertinente par rapport à la chaîne de caractères passée en paramètres
 
 ### Notions utiles
+
+Une *bibliothèque* donne accès un ensemble de fonctions supplémentaires. Cela permet de mutualiser des fonctions et de les réutiliser dans différents programmes.
 
 ## Changer la couleur de la réponse
 
 ### Consignes
+
+* 
 
 ### Documentation utile
 
