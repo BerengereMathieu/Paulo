@@ -175,12 +175,22 @@ Par convention, un projet Processing possède un dossier *data* qui contient tou
 
 ### Documentation utile
 * *import*
+* *if*, *else*
 * *Paulo.load(String[])*: charge la liste des réponses possibles
 * *Paulo.getAnswer(String)*: selectionne la réponse la plus pertinente par rapport à la chaîne de caractères passée en paramètres
 
 ### Notions utiles
 
 Une *bibliothèque* donne accès un ensemble de fonctions supplémentaires. Cela permet de mutualiser des fonctions et de les réutiliser dans différents programmes.
+
+Le *if-else* est une structure de contrôle qui permet d'executer une série d'instructions si une condition est satisfaite et une autre série d'instruction si elle ne l'est pas.
+```
+if (ilPleut) {
+  prendre(parapluie);
+} else {
+  prendre(casquette);
+}
+```
 
 ## Changer la couleur de la réponse
 
