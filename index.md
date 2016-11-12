@@ -185,11 +185,17 @@ Une *bibliothèque* donne accès un ensemble de fonctions supplémentaires. Cela
 ## Changer la couleur de la réponse
 
 ### Consignes
-
-* 
+* Créer une variable de type *String*, nommée *speaker*
+* Durant la phase d'initialisation, assigner la valeur *""* à cette variable
+* Dans la fonction *keyTyped* mettre à jour *speaker* en utilisant *Paulo.getSpeaker()*
+* Ouvrir le fichier *reponses.txt* dans le dossier *data* et relever les noms des comptes twitter des politiciens
+* Dans la fonction de dessin, changer la couleur de la réponse en fonction du nom de compte du politicien qui en est à l'origine (par exemple, rose pour F. Hollande, bleu pour N. Sarkozy etc.).
 
 ### Documentation utile
+* *fill*
+* *switch*
+* *Paulo.getSpeaker()*: renvoie le nom de compte du politicien à l'origine de la dernière réponse sélectionnée
 
 ### Notions utiles
-
+* *switch* TODO
 
