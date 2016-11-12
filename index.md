@@ -153,10 +153,12 @@ Le texte fonctionne comme n'importe toutes les primitives de dessin de Processin
 * *loadStrings*
 
 ### Notions utiles
- `TODO`
- - les tableaux
- - les fichiers
- - le dosser data
+
+Un *tableau* permet de grouper un ensemble de données de même type. Par exemple, une variable *String[] tab* est un tableau de données de type *String*.
+
+Lorsque vous avez un fichier sur votre ordinateur (qu'il s'agisse d'une image, d'une video, de texte, etc.) votre programme ne peut pas y accéder directement. Il faut qu'il stocke les données du fichier dans une ou plusieurs variables. C'est exactement ce qui se passe avec la fonction *loadStrings* qui lit le contenu d'un fichier texte et le transforme en un tableau de *String*. 
+
+Par convention, un projet Processing possède un dossier *data* qui contient tous les fichiers utilisés par le programme.
 
 ## Sélectionner une réponse pertinente
 
