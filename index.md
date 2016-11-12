@@ -207,5 +207,19 @@ if (ilPleut) {
 * *Paulo.getSpeaker()*: renvoie le nom de compte du politicien à l'origine de la dernière réponse sélectionnée
 
 ### Notions utiles
-* *switch* TODO
-
+Le *switch* est une structure de contrôle qui étend le *if-else* à plus de deux alternatives. Il permet d'executer différentes séries d'instructions en fonction de la valeur d'une variable.
+```
+switch(meteo) {
+case "pluie":
+  prendre(parapluie);
+  break;
+case "soleil":
+  prendre(casquette);
+  break;
+case "neige":
+  prendre(skis)
+  break;
+default:
+  prendre(laPorte);
+}
+```
